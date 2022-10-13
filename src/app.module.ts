@@ -4,7 +4,6 @@ import { UserModule } from './user/user.module';
 import { AuthModule } from './auth/auth.module';
 import { NmailerModule } from './nmailer/nmailer.module';
 import { AppLoggerMiddleware } from './middleware/http-logger.middleware';
-import { ProductModule } from './product/product.module';
 
 @Module({
   imports: [
@@ -16,7 +15,6 @@ import { ProductModule } from './product/product.module';
     UserModule,
     AuthModule,
     NmailerModule,
-    ProductModule
   ],
 })
 export class AppModule {
